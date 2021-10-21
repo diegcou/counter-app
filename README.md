@@ -1,0 +1,1 @@
+This project started as a simple, interactive counter app to test JavaScript knowledge.
