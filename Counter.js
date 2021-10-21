@@ -5,3 +5,4 @@ function increment() {
     count = count + 1
     countUp.innerText = count
 }
+
