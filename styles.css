@@ -2,7 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
-	margin-top: 400px;
+	margin-top: 200px;
 }
 
 body::before {
@@ -30,6 +30,11 @@ h2 {
     margin-bottom: 20px;
 }
 
+#subtitle {
+	margin-top: 50px;
+	font-size: 15px;
+}
+
 .Button1 {
 	box-shadow:inset 0px 1px 0px 0px #caefab;
 	background-color:#77d42a;
@@ -55,6 +60,7 @@ h2 {
 }
 
 .Button2 {
+	margin-top: 15px;
 	box-shadow:inset 0px 1px 0px 0px #edabab;
 	background-color:#e01d1d;
 	border-radius:6px;
@@ -74,6 +80,31 @@ h2 {
 	background-color:#b81212;
 }
 .Button2:active {
+	position:relative;
+	top:1px;	
+}
+
+.Button3 {
+	margin-top: 25px;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#c7c7c7;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#0f0f0f;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	position: relative;
+}
+.Button3:hover {
+	background-color:#dfdfdf;
+}
+.Button3:active {
 	position:relative;
 	top:1px;
 }
